@@ -53,7 +53,7 @@ func main() {
 	// Painter's account address
 	painter := common.HexToAddress("0x7922547d2E294fe16e329b3336491410b05B236d")
 
-	// Checking The Painter's balance (toAccount)
+	// Checking Painter's balance (toAccount)
 	{
 		toAccount := common.HexToAddress("0x7922547d2E294fe16e329b3336491410b05B236d")
 		balance, err := client.BalanceAt(context.Background(), toAccount, nil)
